@@ -1,0 +1,77 @@
+.app{
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  border-top: none;
+  border-bottom: none;
+  box-sizing:border-box;
+  position: relative;
+}
+
+.send-message{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  height: 8vh;
+  width: inherit;
+  padding: 0 2vw;
+  box-sizing: border-box;
+  border-top: 1px solid rgb(148, 148, 148);
+}
+
+.send-input{
+  padding-top: 2vh;
+  width: inherit;
+  resize: none;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  font-family: inherit;
+  height: inherit;
+  scrollbar-width: none;
+}
+
+.send-image{
+  width: 30px;
+  object-fit: contain;
+}
+
+.message-box{
+  position: absolute;
+  top: 0;
+  padding: 2vh 1vw;
+  box-sizing: border-box;
+  overflow-y: visible;
+  max-height: 92vh;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.message{
+  position: absolute;
+  top: 0;
+  padding: 1vh 1vw;
+  border-radius: 3vh;
+  width: fit-content;
+  max-width: 60vw;
+  word-wrap: break-word;
+  position: relative;
+  margin: 2vh 2vw;
+}
+
+.left{
+  justify-self: flex-start;
+  border: green 2px solid;
+}
+
+.right{
+  justify-self: flex-end;
+  align-self: flex-end;
+  background-color: green;
+  color: white;
+}
