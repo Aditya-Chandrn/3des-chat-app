@@ -11,7 +11,7 @@ _Guides on how to run project after screenshot_
 ### 2. Server Logs
 ![image](https://github.com/Aditya-Chandrn/3des-chat-app/assets/103370641/b42e8787-9a15-4cb3-be8c-26fee92abac1)
 
-## Frontend:
+## Frontend
 1. Go to client directory: `cd client`
 2. Install packages mentioned in package.json: `npm install`
    ### Packages:
